@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@900&display=swap');
+
+.form{
+   
+
+    margin: 2rem 2rem;
+}
+.form-heading{
+    display: flex;
+    width: 100%;
+   flex-direction: column;
+    
+}
+.form-container {
+   display: flex;
+   margin-top: 3rem;
+}
+@media only screen and (max-width: 600px) {
+  .form-container {
+    display: flex;
+    flex-direction: column;
+    
+ }
+}
+.form-container li {
+    
+  list-style: none;
+      margin: 1rem 1rem;
+      
+  }
+  .form-container input  {
+    
+    padding: 1rem 1rem;
+    margin-left: 2rem;
+    border-radius: 5px;
+    border-color: #495E57;
+   width: 200px;
+   height: 35px;
+      
+  }
+  .form-name{
+    flex-grow: 1;
+   
+
+  }
+  
+  #email,#numinput{
+    margin-left: 3.5rem;
+  }
+  
+  .form-reserve{
+    
+   
+    flex-grow: 1;
+    
+  }
+  
+ .form-reserve li{
+    
+  margin-top: 1rem;
+    
+  }
+  #req_in{
+    margin-left: 6rem;
+  }
+ 
+  .form-reserve #_select{
+    margin-left: 7.5rem;
+    border-radius: 5px;
+    border-color: #495E57;
+   
+  }
+
+  .form-submit{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    margin-top: 3rem;
+  }
+  .form-submit button{
+    cursor: pointer;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    
+    background-color:#495E57;
+    color: #fff;
+margin-right: 6rem;
+    font-size: 20px;
+    border-radius: 5px;
+
+    width: 250px;
+    height: 70px;
+  }
+  .form-submit button:hover{
+   
+    background-color:#293531;
+  
+  }
+ 
+ 
